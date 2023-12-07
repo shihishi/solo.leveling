@@ -1,0 +1,411 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+ 
+   <!-- font awesome -->
+   <link
+   rel="stylesheet"
+   href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+   integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+   crossorigin="anonymous"/>
+ <!--Import Google Icon Font-->
+ <link
+   rel="stylesheet"
+   href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
+ <!-- Compiled and minified CSS -->
+ <link rel="stylesheet" href="css/materialize.min.css" />
+ 
+ <style>
+    body{
+      background-color: black;
+    }
+     header {
+        background: url(img/cancover.jpg);
+        background-size: cover;
+        background-position: center;
+        min-height: 1000px;
+      }
+
+      p::selection {
+        color: black;
+        background-color: crimson;
+      }
+
+      @media screen and (max-width: 670px) {
+        header {
+          min-height: 500px;
+        }
+      }
+      .section {
+        padding-top: 4vw;
+        padding-bottom: 4vw;
+      }
+      .tabs .indicator {
+        background-color: #1a237e;
+      }
+      .tabs .tab a:focus,
+      .tabs .tab a:focus.active {
+        background: transparent;
+      }
+      nav {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+      }
+      p {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: large;
+      }
+      h2 {
+        font-weight: 500;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      }
+     span {
+      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size: large;
+     }
+     .glow {
+      animation: glowing 2s ease-in-out infinite alternate;
+     }
+     @keyframes glowing {
+      from {
+        text-shadow: 0 0 10px #eddfdf, 0 0 20px #eee8e8, 0 0 30px #f6ecec;
+      }
+      to {
+        text-shadow: 0 0 20px #fe4fef, 0 0 30px #f5f1f1, 0 0 40px #f3eeee;
+      }
+     }
+     .glow2 {
+      animation: glowing 2s ease-in-out infinite alternate;
+     }
+     @keyframes glowing {
+      from {
+        text-shadow: 0 0 10px #fb0e0e, 0 0 20px #f60b0b, 0 0 30px #ef0b0b;
+      }
+      to {
+        text-shadow: 0 0 20px #ec0808 0 0 30px #ee1010, 0 0 40px #f00f0f;
+      }
+     }
+ </style>
+    <title>Solo Leveling</title>
+</head>
+<body>
+
+    <header>
+        <nav class="nav-wrapper transparent">
+          <div class="container">
+            <a href="#" class="brand-logo indigo-text">Solo Leveling</a>
+            <a href="#" class="sidenav-trigger" data-target="mobile-menu">
+              <i class="material-icons">menu</i>
+            </a>
+          
+          
+            <ul class="right hide-on-med-and-down">
+              <li><a href="#photo's" class="indigo-text">Photo's</a></li>
+              <li><a href="#gallery" class="indigo-text">Gallery</a></li>
+              <li><a href="#contact" class="indigo-text">Contact's</a></li>
+              <li>
+                <a href="https://www.instagram.com/invites/contact/?i=1d2sgq5z4wn66&utm_content=lfyo5bv" class="tooltipped btn-floating btn-small indigo darken-4" data-tooltip="Instagram">
+                  <i class="fab fa-instagram"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.facebook.com/alicecorral.torrejos?mibextid=2JQ9oc" class="tooltipped btn-floating btn-small indigo darken-4" data-tooltip="Facebook">
+                  <i class="fab fa-facebook"></i>
+                </a>
+              </li>
+              <li>
+                <a href="shishi_00503" class=" tooltipped btn-floating btn-small indigo darken-4" data-tooltip="Discord">
+                  <i class="fab fa-discord"></i>
+                </a>
+              </li>
+            </ul>
+
+            
+            <ul class="sidenav black" id="mobile-menu">
+              <li><div class="user-view">
+                <div class="background">
+                  <img src="img/cover1.jpg">
+                </div>
+                <a href="#user"><img class="circle" src="img/kyoti.jpg"></a>
+                <a href="#name"><span class="white-text name">Shiela</span></a>
+                <a href="#email"><span class="white-text email">torrejosshielamae@gmail.com</span></a>
+              </div>
+            </li>
+              <li><a href="http://127.0.0.1:5500/gallery.html" class="indigo-text waves-effect waves-light">Gallery</a></li>
+              <li><a href="http://127.0.0.1:5500/contact.html" class="indigo-text waves-effect waves-light">Contact's</a></li>
+              <li><a href="http://127.0.0.1:5500/about.html" class="indigo-text waves-effect waves-light">About</a></li>
+              <li><a href="http://127.0.0.1:5500/vid.html" class="indigo-text waves-effect waves-light">Videos</a></li>
+            </ul>
+          </div>
+       
+        </nav>
+      </header>
+    
+    <nav class="black">
+        <ul>
+            <li><a href="https://www.digitalspy.com/tv/a44702122/solo-leveling-anime/" class="indigo-text">Updates</a></li>
+            <li><a href="https://www.youtube.com/watch?v=NtssbUbxDDM" class="indigo-text">Anime Trailer</a></li>
+            <li><a href="https://sololeveling-manwha.com/" class="indigo-text">Manhwa</a></li>
+        </ul>
+    </nav>
+    
+    <main>
+        <article>
+            <h2 class="center-align indigo-text text-lighten-1 glow">Solo Leveling</h2>
+            <p class="center-align red-text">Solo Leveling is a popular Webtoon featuring a ranking system for hunters authorized
+               to clear and secure dungeons. <br>The main plot of Solo Leveling revolves around Sung Jin-Woo, once known as the "World's Weakest Hunter," <br>due to his immense weakness as a hunter. However, by chance, Jin-Woo discovers the System,<br>
+               which allows him to level up, increasing his strength as a Hunter. <br>
+               Once Jin-Woo reaches a certain level, the System grants him a Shadow Extraction skill, <br> permitting him to summon dead warriors' souls as powerful shadows. <br>
+               Solo Leveling's protagonist then uses this power to create a powerful army, but some shadows stand out among his minions in terms of strength.</p>
+        </article>
+
+        <br>
+        <br>
+        <div class="center">
+          <video controls autoplay muted loop src="vid/Sung Jin-Woo vs. Igris (Solo Leveling Fan Animation by 宇治 with sound effects).mp4" width="900"></video> 
+          <br>
+          <br>
+          <li><a href="http://127.0.0.1:5500/vid.html" class="black waves-effect waves-red btn waves-effect waves-light">More vids</a></li>
+        </div>
+        
+        <br>
+        <br>
+    <section class="container section scrollspy" id="photo's">
+      <div class="row">
+        <div class="col s12 l4">
+          <img
+            src="img/cover.jpg"
+            alt=""
+            class="responsive-img materialboxed"
+          />
+        </div>
+        <div class="col s12 l6 offset-l1">
+          <h2 class="indigo-text text-lighten-1 glow">Sung Jin-woo</h2>
+          <p class="red-text">
+            Jinwoo is a handsome and muscular young man with gray eyes, black hair, and sharp facial features. When using his powers or agitated, his eyes glow bright purple. He is almost always seen wearing dark colors, particularly black, and after slaughtering the Monarchs for a second time, takes to wearing a black glove on his left hand, which was severely scarred in his battle with Antares. 
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s12 l4 push-l7 offset-l1 right-align">
+          <img src="img/pastpresent.jpg" alt="" class="responsive-img materialboxed" />
+        </div>
+        <div class="col s12 l6 pull-l5 offset-l1">
+          <h2 class="indigo-text text-lighten-1 glow">Sung Jin-woo</h2>
+          <p class="red-text">
+            Sung Jinwoo (성진우) is the main protagonist of Solo Leveling. Originally an infamously weak E-Rank Hunter, he got the chance of a lifetime when he was selected as the Player of the System, giving him the unique ability to grow in strength without restraint. As a result, by taking advantage of the opportunities offered to him by the System, Jinwoo eventually rose to power as humanity's greatest hunter and the second Shadow Monarch. Back when he was weak, Jinwoo was a short, scrawny young man with hair long enough to completely cover his ears.
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s12 l4">
+          <img
+            src="img/shadows bhd him.jpg"
+            alt=""
+            class="responsive-img materialboxed"
+          />
+        </div>
+        <div class="col s12 l6 offset-l1">
+          <h2 class="indigo-text text-lighten-1 glow">His shadows</h2>
+          <p class="red-text">
+            Shadows (그림자) are a race of undead monsters that the Shadow Monarch can create from slain beasts and hunters using his Shadow Extraction skill. A shadow's level of personality depends on its grade. Normal to Elite Grade shadows have little to no personality at all, while Knight and Elite Knight Grade shadows are able to express simple emotions like anxiety and joy. In comparison, General and Marshal Grade Shadows have very developed personalities, as displayed by how Beru enjoyed watching Korean period dramas in his spare time and had his own unique style of speech.
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s12 l4 push-l7 offset-l1 right-align">
+          <img
+            src="img/skiribiru.webp"
+            alt=""
+            class="responsive-img materialboxed"
+          />
+        </div>
+        <div class="col s12 l6 pull-l5 offset-l1">
+          <h2 class="indigo-text text-lighten-1 glow">Beru</h2>
+          <p class="red-text">
+            Beru (베르) is the shadow of the Ant King. Due to having been born to kill, Beru revels in his power and has an obvious bloodlust for battle. As such, he is very brutal in combat, rarely holding back unless ordered to, and goes straight for his enemy's weak spots. Beru is fiercely loyal to his master and has a lighter side of his personality, even complimenting him in a middle of a fight.
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s12 l4">
+          <img
+            src="img/igrisred.jpg"
+            alt=""
+            class="responsive-img materialboxed"
+          />
+        </div>
+        <div class="col s12 l6 offset-l1">
+          <h2 class="indigo-text text-lighten-1 glow">Igris</h2>
+          <p class="red-text">
+            Igris (이그리트) is the shadow of Blood-Red Commander Igris. Igris is loyal, respectful, and chivalrous, to the point that he tends to kneel to his master every time he finishes a battle for him. A running gag with his character is that he always brings the head of his kills back to Jinwoo.
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s12 l4 push-l7 offset-l1 right-align">
+          <img
+            src="img/tusk.jpg"
+            alt=""
+            class="responsive-img materialboxed"
+          />
+        </div>
+        <div class="col s12 l6 pull-l5 offset-l1">
+          <h2 class="indigo-text text-lighten-1 glow">Tusk</h2>
+          <p class="red-text">
+            Tusk (어금니) is the shadow of Kargalgan. Tusk is obedient, quiet, and shy, as displayed when he sheepishly scratched the back of his head upon encountering a group of awed reporters during the Ahjin Guild's first dungeon raid. However he can also be competitive and a bit of a show-off, as displayed during his contest with the three dragons in Ashborn's shadow army.
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s12 l4">
+          <img
+            src="img/iron.jpg "
+            alt=""
+            class="responsive-img materialboxed"
+          />
+        </div>
+        <div class="col s12 l6 offset-l1">
+          <h2 class="indigo-text text-lighten-1 glow">Iron</h2>
+          <p class="red-text">
+            Iron (아이언) was the shadow of Kim Chul. Iron is a loose cannon and has a tendency to go overboard in battle, usually causing excessive destruction with his antics. He also takes pride in his kills and gets easily frustrated when his opponents prove to be immune to his Taunt skill.
+          </p>
+        </div>
+      </div>
+
+    </section>
+    </main>
+
+    <div class="parallax-container">
+      <div class="parallax">
+        <img src="img/swrodcover.webp" alt="" />
+      </div>
+    </div>
+
+    <!-- puto -->
+    <section class="section container scrollspy center" id="gallery">
+      <h2 class="indigo-text text-lighten-1 glow">Gallery</h2>  
+      <p class="center-align red-text">Here are some picture's for solo leveling. Click more to see other picture's.</p>
+
+      <div class="row">
+        <div class="col s12 l4 ">
+          <img
+            src="img/iron.jpg"
+            alt=""
+            class="responsive-img materialboxed"/>
+            <br>
+            <img src="img/king.jpg" alt="" class="responsive-img materialboxed">
+        </div>
+        <div class="col s12 l4">
+          <img
+            src="img/beberu.jpg"
+            alt=""
+            class="responsive-img materialboxed"/>
+            <br>
+            <img src="img/igris.jpg" alt="" class="responsive-img materialboxed">
+        </div>
+        <div class="col s12 l4">
+          <img
+            src="img/tusk.jpg"
+            alt=""
+            class="responsive-img materialboxed"/>
+            <br> <br> 
+          
+            <nav class="black">
+              <ul>
+                  <li><a href="http://127.0.0.1:5500/gallery.html" class="black-text btn-small red waves-effect waves-light">More</a></li>
+              </ul>
+          </nav>
+            </section>
+        
+            <div class="parallax-container">
+              <div class="parallax">
+                <img src="img/gif scary.gif" alt="" />
+              </div>
+            </div>
+            
+            
+    <section class="join center-align indigo-text text-lighten-1">
+        <h2 class="indigo-text text-lighten-1 glow2">Watch the MV for Solo Leveling!</h2>  
+        <p class="center-align red-text">Solo Leveling is a Korean web novel written by Chu-Gong. <br> It was first serialized by Papyrus on November 4, 2016 and ended with 14 volumes and 270 chapters. <br> On April 13, 2018, a webtoon serialization was released on KakaoPage, drawn by artists Gi So-Ryeong and Jang Sung-Rak.</p>
+    </section>
+    <br>
+    <br>
+            
+    <div class="center">
+      <video controls autoplay muted loop src="vid/[MV] THE BOYZ(더보이즈) _ Echo 'Solo Leveling(나 혼자만 레벨업)' OST (WEBTOON PV).mp4" width="800"></video> 
+      </div>
+
+      <br>
+
+    <section class="section container scrollspy" id="contact">
+      
+      <div class="chip btn-large">
+        <img src="img/dp.jpg" alt="Contact Person">
+        Shiela
+      </div>
+
+        <div class="row">
+          <div class="col s12 m6 center">
+            <div class="card grey darken-2">
+              <div class="card-content white-text">
+                <span class="card-title">Worth to Read</span>
+                <p>I hope you will read the solo leveling manhwa/novel. I'm sure you'll appreciate it, and it's well worth the read! The storyline and the figthing scenes are excellent and fascinating! Although the early or initial episodes are a little dull, stick with it and you will read the interesting and thrilling sections!</p>
+              </div>
+              <div class="card-action">
+                <i class="material-icons black-text">brightness_3</i>
+              </div>
+            </div>
+          </div>
+
+          <div class="col s12 m6 center">
+            <div class="card grey darken-2">
+              <div class="card-content white-text">
+                <span class="card-title">Suggestion</span>
+                <p>I advise you to listen to rock or fighting tunes as you read it. I tried that as I was reading it, and the music made the fighting scenes more dramatic. It also gave me a really great sensation as I read it, and it affected my emotions since it was becoming more realistic. The smiling statue are a little terrifying but it's worth it!
+                </p>
+              </div>
+              <div class="card-action">
+                <i class="material-icons black-text">brightness_3</i>
+              </div>
+            </div>
+          </div>          
+        </div>
+      </section>
+
+      <section>
+        <nav class="black">
+          <ul>
+              <li><a href="http://127.0.0.1:5500/hays.html" class="red waves-effect waves-red btn waves-effect waves-light">Back to top</a></li>
+          </ul>
+      </nav>
+      </section>
+
+    <footer>
+        <p class="copyright indigo-text center-align">&copy;Copyright 2023-2024 Shiela</p>
+    </footer>
+
+
+    <script src="js/jquery.js"></script>
+    <script src="js/materialize.min.js"></script>
+
+    <script>
+
+        $(document).ready(function () {
+          $(".sidenav").sidenav();
+          $(".materialboxed").materialbox();
+          $(".parallax").parallax();
+          $(".tabs").tabs();
+          $(".datepicker").datepicker({
+            disableWeekends: true,
+          });
+          $('.tooltipped').tooltip();
+          $('.scrollspy').scrollspy();
+         
+        });
+
+      </script>
+
+</body>
+</html>
